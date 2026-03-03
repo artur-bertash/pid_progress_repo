@@ -10,7 +10,7 @@ To do:
 
 ## PID Performance Synthetic Test Comparison [Terminal IMG](https://github.com/user-attachments/assets/7ce4f6ff-2e25-4975-b5ae-d9ced179f271)
 
-| Implementation | Avg Time per Update (µs) | Total Time (s) | Relative Speed |  
+| Implementation | Avg Time per Update (micro s) | Total Time (s) | Relative Speed |  
 |---------------|--------------------------|---------------|----------------|
 | C++ (rclcpp + eigen)          | 1.96706                  | 0.196706      | 1×               
 | Python (rclpy + numpy)       | 213.80                   | 21.3803       | 108.7× slower 
@@ -20,7 +20,7 @@ To do:
 
 
 
-Current demo:
+Demo explaining:
 
 
 https://github.com/user-attachments/assets/fd431dcd-feb3-4e55-8f5a-2b2395aeb38e
